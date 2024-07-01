@@ -22,7 +22,11 @@ export default function RootLayout({
       <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider defaultTheme="dark" attribute="class" disableTransitionOnChange>
           <FloatingNav navItems={navItems} />
-          {children}
+          <main className="relative mx-auto flex flex-col items-center justify-center overflow-hidden bg-black-100 px-5 sm:px-10">
+            <div className="w-full max-w-7xl">
+              {children}
+            </div>
+          </main>
         </ThemeProvider>
       </body>
     </html>
