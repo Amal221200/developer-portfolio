@@ -1,6 +1,6 @@
 "use client"
 import { useCallback, useState } from 'react'
-import MagicButton from './MagicButton'
+import MagicButton from '../buttons/MagicButton'
 import { Copy } from 'lucide-react'
 import Lottie from 'react-lottie'
 import animationData from "@/data/confetti.json"

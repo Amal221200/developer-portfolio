@@ -1,7 +1,7 @@
 import Spotlight from "./ui/Spotlight"
 import { Navigation } from "lucide-react"
 import TextGenerateEffect from "./ui/TextGenerateEffect"
-import MagicButton from "./ui/MagicButton"
+import MagicButton from "./buttons/MagicButton"
 import Link from "next/link"
 
 const Hero = () => {
