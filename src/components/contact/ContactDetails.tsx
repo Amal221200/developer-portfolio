@@ -27,7 +27,7 @@ const ContactDetails = () => {
                 <div className="flex items-center gap-6 md:gap-3">
                     {
                         socialMedia.map((social)=> (
-                            <Link href={social.link} key={social.id} className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-black-300 bg-black-200 bg-opacity-75 saturate-[1.8] backdrop-blur-lg backdrop-filter">
+                            <Link target="_blank" href={social.link} key={social.id} className="flex h-10 w-10 items-center justify-center rounded-lg border border-black-300 bg-black-200 bg-opacity-75 saturate-[1.8] backdrop-blur-lg backdrop-filter">
                                 <img src={social.img} alt={social.img} width={20} height={20} />
                             </Link>
                         ))
