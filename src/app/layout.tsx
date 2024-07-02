@@ -1,9 +1,14 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import dynamic from "next/dynamic";
 import ThemeProvider from "@/components/providers/ThemeProvider";
-import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+import MobileSidebarProvider from "@/components/providers/MobileSidebarProvider";
+
+const MobileSidebarButton = dynamic(() => import("@/components/buttons/MobileSidebarButton"), { ssr: true });
+const FloatingNav = dynamic(() => import("@/components/ui/FloatingNav").then(m => m.FloatingNav), { ssr: true });
+const MobileSidebar = dynamic(() => import("@/components/MobileSidebar"), { ssr: true });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,14 +25,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className} suppressHydrationWarning>
-        <ThemeProvider defaultTheme="dark" attribute="class" disableTransitionOnChange>
-          <FloatingNav navItems={navItems} />
-          <main className="relative mx-auto flex flex-col items-center justify-center overflow-clip bg-black-100 px-5 sm:px-10">
-            <div className="w-full max-w-7xl">
-              {children}
-            </div>
-          </main>
-        </ThemeProvider>
+        <MobileSidebarProvider>
+          <ThemeProvider defaultTheme="dark" attribute="class" disableTransitionOnChange>
+            <FloatingNav navItems={navItems} />
+            <MobileSidebar />
+            <main className="relative mx-auto flex flex-col items-center justify-center overflow-clip bg-black-100 px-5 sm:px-10">
+              <div className="w-full max-w-7xl">
+                {children}
+              </div>
+            </main>
+            <MobileSidebarButton />
+          </ThemeProvider>
+        </MobileSidebarProvider>
       </body>
     </html>
   );

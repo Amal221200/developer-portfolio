@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Hero = () => {
     return (
-        <section className="min-h-screen pt-36">
+        <section className="flex min-h-screen sm:block sm:pt-36">
             <div>
                 <Spotlight className="-left-10 -top-40 h-screen md:-left-32 md:-top-20" fill="white" />
                 <Spotlight className="left-full top-10 h-[80vh] w-[50vw]" fill="purple" />

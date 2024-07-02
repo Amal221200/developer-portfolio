@@ -203,6 +203,38 @@ export const workExperience = [
     },
 ];
 
+export const approaches = [
+    {
+        title: "Planning & Strategy",
+        order: "Phase One",
+        description: "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+        containerClass: "bg-emerald-900",
+        animationSpeed: 5.1,
+    },
+    {
+        title: "Development & Progress Update",
+        order: "Phase Two",
+        description: "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+        containerClass: "bg-black",
+        animationSpeed: 3,
+        colors: [
+            [236, 72, 153],
+            [232, 121, 249],
+        ],
+        dotSize: 2
+    },
+    {
+        title: "Development & Launch",
+        order: "Phase Three",
+        description: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+        containerClass: "bg-sky-600",
+        animationSpeed: 3,
+        colors: [
+            [125, 211, 252]
+        ],
+    },
+]
+
 export const socialMedia = [
     {
         id: 1,

@@ -4,7 +4,7 @@ import MovingBorderButton from "../buttons/MovingBorderButton"
 
 const WorkExperience = () => {
     return (
-        <section className="py-20" id="experience">
+        <section className="py-10 sm:pb-10 sm:pt-20" id="experience">
             <h1 className="heading">My {" "}
                 <span className="text-purple">work experience</span>
             </h1>

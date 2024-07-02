@@ -6,7 +6,7 @@ const PinContainer = dynamic(() => import('../ui/3dPin').then(m => m.PinContaine
 
 const RecentProjects = () => {
     return (
-        <section className="pt-28" id="projects">
+        <section className="py-10 sm:pt-28" id="projects">
             <h1 className="heading">A small selection of {" "}
                 <span className="text-purple">recent projects</span>
             </h1>
