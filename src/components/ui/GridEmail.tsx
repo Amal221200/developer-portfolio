@@ -11,10 +11,6 @@ const GridEmail = () => {
     const handleCopy = useCallback(() => {
         navigator.clipboard.writeText('amalmurikkoli@gmail.com')
         setCopied(true)
-
-        // setTimeout(() => {
-        //     setCopied(false)
-        // }, 5000)
     }, [])
     return (
         <div className="relative mt-5">
