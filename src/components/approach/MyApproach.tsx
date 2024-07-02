@@ -3,7 +3,7 @@ import { AceternityIcon, Card } from "../ui/Card"
 
 const MyApproach = () => {
     return (
-        <section className="">
+        <section className='pt-28'>
             <h2 className="heading">My <span className="text-purple">Approach</span></h2>
             <div className="my-20 flex flex-col gap-8 lg:flex-row">
                 <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase One" />}
