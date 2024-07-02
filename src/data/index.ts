@@ -1,6 +1,8 @@
 export const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Projects", link: "/projects" },
+    { name: "Experience", link: "/experience" },
     { name: "Testimonials", link: "/testimonials" },
     { name: "Contact", link: "/contact" },
 ];
@@ -205,13 +207,11 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-    },
-    {
-        id: 2,
-        img: "/twit.svg",
+        link: "https://github.com/Amal221200"
     },
     {
         id: 3,
         img: "/link.svg",
+        link: "https://www.linkedin.com/in/amal-murikkoli"
     },
 ];

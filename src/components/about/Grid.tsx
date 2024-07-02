@@ -4,7 +4,7 @@ import { gridItems } from '@/data'
 
 const Grid = () => {
   return (
-    <section id='about' className='py-20'>
+    <section id='about' className='pb-10 pt-28'>
     <BentoGrid>
       {
         gridItems.map((item) => (

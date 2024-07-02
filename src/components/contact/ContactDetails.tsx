@@ -5,8 +5,8 @@ import { socialMedia } from "@/data"
 
 const ContactDetails = () => {
     return (
-        <section className="grid content-center md:h-screen" id="contact">
-            <div className="absolute -bottom-72 left-0 w-full">
+        <section className="grid h-screen content-center" id="contact">
+            <div className="absolute bottom-0 left-0 w-full">
                 <img src="/footer-grid.svg" alt="grid" className="h-full w-full opacity-50" />
             </div>
             <div className="flex flex-col items-center">
@@ -21,7 +21,7 @@ const ContactDetails = () => {
                 </a>
             </div>
 
-            <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
+            <div className="mt-16 flex flex-col items-center justify-between gap-y-2 md:flex-row">
                 <p className="text-sm font-light md:text-base md:font-normal">Copyright &copy; 2024 Amal Murikkoli</p>
                 <div className="flex items-center gap-6 md:gap-3">
                     {
