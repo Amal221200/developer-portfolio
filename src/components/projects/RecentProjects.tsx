@@ -19,7 +19,7 @@ const RecentProjects = () => {
                                     <div className="relative h-full w-full overflow-hidden bg-[#13162d] lg:rounded-3xl">
                                         <img src="/bg.png" alt="bg-img" />
                                     </div>
-                                    <img src={project.img} alt={project.title} className="absolute bottom-0 z-10" />
+                                    <img src={project.img} alt={project.title} className="absolute bottom-0 z-10 w-[94%] translate-y-4 rotate-2 transform rounded-xl" />
                                 </div>
                                 <h3 className="line-clamp-1 text-base font-bold md:text-2xl lg:text-2xl">{project.title}</h3>
                                 <p className="line-clamp-2 text-sm font-light lg:text-xl lg:font-normal">
@@ -39,8 +39,8 @@ const RecentProjects = () => {
                                     </div>
 
                                     <div className="flex items-center gap-2">
-                                        <p className="flex text-sm text-purple md:text-xs lg:text-xl">Check Live Site</p> 
-                                        <Navigation size={19} color="#cbacf9" fill="#cbacf9" className="" />
+                                        <p className="flex text-sm text-purple md:text-xs lg:text-base">Check Live Site</p> 
+                                        <Navigation size={17} color="#cbacf9" fill="#cbacf9" className="" />
                                     </div>
                                 </div>
                             </PinContainer>

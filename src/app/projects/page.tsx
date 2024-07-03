@@ -1,4 +1,4 @@
-import RecentProjects from '@/components/project/RecentProjects'
+import RecentProjects from '@/components/projects/RecentProjects'
 
 const ProjectsPage = () => {
   return (
