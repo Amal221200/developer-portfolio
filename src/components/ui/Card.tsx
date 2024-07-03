@@ -17,8 +17,8 @@ export const Card = ({
     const [hovered, setHovered] = React.useState(false);
     return (
         <div
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
+            onPointerEnter={() => setHovered(true)}
+            onPointerLeave={() => setHovered(false)}
             className="group/canvas-card relative mx-auto flex w-full max-w-sm items-center justify-center rounded-3xl border border-black/[0.2] p-4 dark:border-white/[0.2] lg:h-[35rem]"
         >
             <Icon className="absolute -left-3 -top-3 h-6 w-6 text-black dark:text-white" />
