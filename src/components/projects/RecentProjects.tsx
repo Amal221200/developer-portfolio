@@ -13,12 +13,12 @@ const RecentProjects = () => {
             <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 p-4">
                 {
                     projects.map((project) => (
-                        <CardContainer key={project.id}>
-                            <CardBody>
+                        <CardContainer key={project.id} className="inter-var">
+                            <CardBody className="group/card relative">
                                 <div className="flex h-[32rem] w-[80vw] items-center justify-center sm:h-[41rem] sm:w-[570px] lg:min-h-[32.5rem]">
-                                    <div className="relative rounded-2xl border border-white/[0.1] bg-sky-500/[0.08] p-4 shadow-[0_8px_16px_rgb(0_0_0/0.4)]">
+                                    <div className="relative rounded-2xl border border-white/[0.1] bg-black-100 p-4 shadow-[0_8px_16px_rgb(0_0_0/0.4)]">
                                         <CardItem className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[40vh] sm:w-[570px]" translateZ={100}>
-                                                <div className="relative h-full w-full overflow-hidden bg-[#13162d] lg:rounded-3xl">
+                                                <div className="relative h-full w-full overflow-hidden rounded-xl bg-[#13162d] lg:rounded-3xl">
                                                     <img src="/bg.png" alt="bg-img" />
                                                 </div>
                                                 <img src={project.img} alt={project.title} className="absolute bottom-0 z-10 w-[94%] translate-y-4 rotate-2 transform rounded-xl" />
