@@ -78,7 +78,14 @@ export const projects = [
         title: "AI Resume Builder",
         des: "Build your professional resume using AI",
         img: "/projects/ai-resume-builder.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/sanity.svg"],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/c.svg", name: 'Clerk' },
+            { img: "/sanity.svg", name: 'Sanity.io' },
+            { img: "/shadcn-ui.svg", name: 'ShadCN UI' }
+        ],
         link: "https://ai-resume-builder-client.vercel.app",
     },
     {
@@ -86,7 +93,16 @@ export const projects = [
         title: "Anime Hub",
         des: "All your anime related contents and information is one search away.",
         img: "/projects/anime-hub.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/c.svg",'/react-query.svg'],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/prisma.svg", name: "Prisma" },
+            { img: "/c.svg", name: 'Clerk' },
+            { img: '/react-query.svg', name: 'React Query' },
+            { img: "/shadcn-ui.svg", name: 'ShadCN UI' },
+            { img: '/postgresql.svg', name: 'PostgreSQL' },
+        ],
         link: "https://anime-hub-lime.vercel.app",
     },
     {
@@ -94,7 +110,16 @@ export const projects = [
         title: "Anime Hub - Admin",
         des: "An admin dashboard to manage all the data of the Anime Hub",
         img: "/projects/anime-hub-admin.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/prisma.svg", '/react-query.svg'],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/prisma.svg", name: "Prisma" },
+            { img: "/c.svg", name: 'Clerk' },
+            { img: '/react-query.svg', name: 'React Query' },
+            { img: "/shadcn-ui.svg", name: 'ShadCN UI' },
+            { img: '/postgresql.svg', name: 'PostgreSQL' },
+        ],
         link: "https://anime-hub-admin.vercel.app",
     },
     {
@@ -102,7 +127,15 @@ export const projects = [
         title: "Taskify",
         des: "A prductivity tool to make lists of notes and share among your team.",
         img: "/projects/taskify.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/prisma.svg"],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/prisma.svg", name: "Prisma" },
+            { img: "/c.svg", name: 'Clerk' },
+            { img: "/shadcn-ui.svg", name: 'ShadCN UI' },
+            { img: '/postgresql.svg', name: 'PostgreSQL' },
+        ],
         link: "https://taskify-sepia-gamma.vercel.app",
     },
     {
@@ -110,7 +143,12 @@ export const projects = [
         title: "Tech People",
         des: "A blog website for all the tech people",
         img: "/projects/tech-people.png",
-        iconLists: ["/astro.svg", "/tail.svg", "/ts.svg", "/markdown.svg"],
+        stack: [
+            { name: 'Astro', img: "/astro.svg" },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/markdown.svg", name: 'MarkDown' }
+        ],
         link: "https://astro-blog-wheat-psi.vercel.app",
     },
     {
@@ -118,7 +156,12 @@ export const projects = [
         title: "Topojo",
         des: "A blog website for all the movie fans, anime lovers, and pop culture fans.",
         img: "/projects/topmojo.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/sanity.svg"],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/sanity.svg", name: 'Sanity.io' },
+        ],
         link: "https://topmojo.vercel.app",
     },
     {
@@ -126,7 +169,13 @@ export const projects = [
         title: "Animated Apple Iphone 3D Website",
         des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
         img: "/projects/apple-store.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/three.svg", name: "Three JS" },
+            { img: "/gsap.svg", name: 'GSAP' }
+        ],
         link: "https://apple-store-landing-page.vercel.app",
     },
     {
@@ -134,7 +183,13 @@ export const projects = [
         title: "Rocket Todo",
         des: "A simple apllicaion to manage your tasks.",
         img: "/projects/rocket-todo.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/rust.svg"],
+        stack: [
+            { img: "/next.svg", name: 'Next JS' },
+            { img: "/tail.svg", name: 'Tailwind CSS' },
+            { img: "/ts.svg", name: "TypeScript" },
+            { img: "/mongo.svg", name: "MongoDB" },
+            { img: "/rust.svg", name: 'Rust' }
+        ],
         link: "https://rocket-todo-client.vercel.app",
     },
 ];
